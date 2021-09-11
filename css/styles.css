@@ -1,0 +1,141 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #2196f3;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+ul {
+  list-style: none;
+}
+/* лого */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.start-logo {
+  color: var(--title-text-color);
+}
+
+/* навигация */
+.site-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* контакты */
+.auth-nav .link {
+  color: #757575;
+  text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*  герои */
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--title-text-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+
+/* заголовки h2 */
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* секция скилов */
+.section-skils h3 {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.section-skils p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* секция наша команда */
+.section-command h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.section-command p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* подвал */
+.address > p,
+.address > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.address > a:hover,
+.address > a:focus {
+  color: var(--accent-color);
+}
+
+/* портфолио */
+
+.portfolio button {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+
+.portfolio button:hover,
+.portfolio button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.portfolio b {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+}
